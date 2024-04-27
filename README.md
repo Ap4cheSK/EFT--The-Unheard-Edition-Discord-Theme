@@ -39,8 +39,8 @@ If you want to contribute and do some part of the theme, fork this repository, a
 
 ### How to update?
 
-a) Check this repository for new version/new commits and download the theme again.
-b) Use install type B for auto-updating the theme. (***However, if this repository will become private, or somehow unavailable, the theme will stop working.***)
+- Check this repository for new version/new commits and download the theme again.
+- Use install type B for auto-updating the theme. (***However, if this repository will become private, or somehow unavailable, the theme will stop working.***)
 
 ### How to uninstall?
 
