@@ -121,6 +121,10 @@
 .reaction__4a43f {background: rgba(0, 0, 0, .25) !important;}
 .reactionMe__0fffc {border-color: var(--tueblue) !important; background: rgba(89, 202, 222, 0.25) !important;}
 .wrapper_c899da, .wrapper__6b7d8  {background: none !important;} /* loading chat */
+.imageContent__0fe2a {background: none !important;} /* some weird bg behind emoji */
+/* emoji */
+.emoji {width: 28px; height: 28px;} /* bigger inline emoji */
+.jumboable {width: 48px !important; height: 48px !important;} /* bigger standalone emoji */
 
 /* ===================== */
 /* C H A T   E D I T O R */
