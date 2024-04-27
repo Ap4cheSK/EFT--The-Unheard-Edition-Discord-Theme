@@ -5,6 +5,8 @@
  * @description Escape From Tarkov - Unique Unheard Edition Theme
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 :root {--tueblue: #59CADE; --main-color: rgb(35,35,35,0.75); --hover-color: #c6c5b3; --success-color: #316432; --danger-color: #AD0403; --channel-unread: #8DE736; --channel-color: rgb(223,225,226,1); --muted-color: rgb(156,154,141,0.36); --channel-text-selected: black; --background-tertiary: rgba(0,0,0,.4); --url-color: #b26827; --online-color: #8DE736; --idle-color: #A45B1C;--dnd-color: #982929; --offline-color: #808080; --streaming-color: #59CADE; --main-font: Bender; --code-font: Bender; --font-display: var(--main-font); --text-normal: rgb(220, 221, 222); --text-muted: rgb(114, 118, 125); --channels-width: 220px; --members-width: 240px; --background-shading: 100%; --background-overlay: rgba(0, 0, 0, 0.6); --background-position: center; --background-size: cover; --background-repeat: no-repeat; --background-attachment: fixed; --background-brightness: 100%; --background-contrast: 100%; --background-saturation: 100%; --background-invert: 0%; --background-grayscale: 0%; --background-sepia: 0%; --background-blur: 0px; --backdrop-overlay: rgba(0,0,0,0.8); --backdrop-image: var(--background-image); --backdrop-position: var(--background-position); --backdrop-size: var(--background-size); --backdrop-repeat: var(--background-repeat); --backdrop-attachment: var(--background-attachment); --backdrop-brightness: var(--background-brightness); --backdrop-contrast: var(--background-contrast); --backdrop-saturation: var(--background-saturation); --backdrop-invert: var(--background-invert); --backdrop-grayscale: var(--background-grayscale); --backdrop-sepia: var(--background-sepia); --backdrop-blur: var(--background-blur); --user-popout-image: var(--background-image); --user-popout-position: var(--background-position); --user-popout-size: var(--background-size); --user-popout-repeat: var(--background-repeat); --user-popout-attachment: var(--background-attachment); --user-popout-brightness: 100%; --user-popout-contrast: 100%; --user-popout-saturation: 100%; --user-popout-invert: 0%; --user-popout-grayscale: 0%; --user-popout-sepia: var(--background-sepia); --user-popout-blur: 0px; --user-popout-overlay: rgba(0, 0, 0, 0.65); --user-modal-image: url('https://i.imgur.com/0Bdhrob.png'); --user-modal-position: center; --user-modal-size: cover; --user-modal-repeat: no-repeat; --user-modal-attachment: fixed; --user-modal-brightness: 150%; --user-modal-contrast: 100%; --user-modal-saturation: 100%; --user-modal-invert: 0%; --user-modal-grayscale: 0%; --user-modal-sepia: var(--background-sepia); --user-modal-blur: 3px; --home-icon: url(); --home-position: center; --home-size: 40px; --bd-blue: var(--main-color); --bd-blue-hover: var(--hover-color); --bd-blue-active: var(--hover-color); --text-link: var(--tueblue) !important; --text-positive: var(--tueblue);}
 
 :root { --background-image: url('./eft_tue_bg.webp'); --background-shading: 0%; --background-position: center; --background-size: cover; --background-repeat: repeat; --background-attachment: fixed; --background-brightness: 120%; --background-contrast: 105%; --background-saturation: 110%; --background-grayscale: 0%; --background-invert: 0%; --background-blur: 0px; --background-overlay: rgb(0,0,0,0.1);}
@@ -14,7 +16,7 @@
 /* ============= */
 /* G E N E R A L */
 /* ============= */
-* {font-family: Bender;} /* Font */
+* {font-family: "Titillium Web", sans-serif;} /* Font */
 .sidebar_ded4b5, .container__590e2, .panels__58331, .container_ca50b9, .container_d667ff {background: none !important; border: none;} /* Window and channel list / voice control panel NEW */
 .bg__12180 {background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment) !important; filter: blur(3px) brightness(75%);} /* Background image */
 .base_c0676e, .content__76dcf, .sidebar_e031be, .container__7e23c, .wrapper_e832ee, .container_debb33, .container_e1958d {background: none !important; border: none;} /* background deletes*/
@@ -64,7 +66,7 @@
 /* ======================= */
 /* C H A N N E L   L I S T */
 /* ======================= */
-.wrapper__7bcde .name__8d1ec {font-weight: bold !important;} /* Channel bold name */
+.name__4eb92  {font-weight: 700 !important;} /* Channel bold name */
 .modeUnreadImportant_efb53e .name__8d1ec {color: var(--tueblue);} /* Green unread channel name */
 .modeUnreadImportant_efb53e .icon_eff5d4 {color: var(--tueblue);} /* green unread channel hashtag */
 .unread__48cf4 {background: var(--tueblue);} /* green unread channel pill left */
@@ -87,6 +89,7 @@
 /* ================= */
 /* C H A T   A R E A */
 /* ================= */
+.username__0b0e7 {font-weight: 600;} /* bold usernames */
 .message_ccca67 {margin: 2px 0px;} /* msg padding */
 .children_cde9af::after {opacity: 0;} /* some weird shadow on left from threads btn */
 .chat__52833, .content__01e65, .chatContent_f087cb {background: none !important;}
@@ -188,6 +191,7 @@
 .member_aa4760:hover {background: rgba(0, 0, 0, .25) !important;}
 .membersGroup_cad095, .activityText__31c22 {color: white;} /* member activity text color */
 .botTag_a52f38 {background: var(--tueblue); color: black;} /* members APP pill */
+.username__4a6f7 {font-weight: 600;} /* bold usernames */
 
 /* ========================================= */
 /* S H O P   &   N I T R O   &   P O P U P S */
