@@ -33,7 +33,7 @@ If you want to contribute and do some part of the theme, fork this repository, a
 
 #### Type B - Online Theme
 **If your Discord modification supports Online themes by inserting source file URL**
-- Copy this source file URL: [](https://raw.githubusercontent.com/Ap4cheSK/EFT--The-Unheard-Edition-Discord-Theme/main/Tarkov.Unheard.theme.css)
+- Copy this source file URL: [https://raw.githubusercontent.com/Ap4cheSK/EFT--The-Unheard-Edition-Discord-Theme/main/Tarkov.Unheard.theme.css](https://raw.githubusercontent.com/Ap4cheSK/EFT--The-Unheard-Edition-Discord-Theme/main/Tarkov.Unheard.theme.css)
 - Insert the source file URL to Online Theme URL input
 - **DON'T USE LIGHT-MODE IN DISCORD! WILL RESULT IN BREAKING THE THEME FOR YOU. IF YOU WANT TO USE THIS THEME, USE DARK-MODE**
 
