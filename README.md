@@ -39,7 +39,8 @@ If you want to contribute and do some part of the theme, fork this repository, a
 
 ### How to update?
 
-Currently there is no automatic update system, so you have to check this repository sometimes, so you know if new version has released, or not. However in future, there **may** be automatic theme updater.
+a) Check this repository for new version/new commits and download the theme again.
+b) Use install type B for auto-updating the theme. (***However, if this repository will become private, or somehow unavailable, the theme will stop working.***)
 
 ### How to uninstall?
 
