@@ -32,14 +32,15 @@ If you want to contribute and do some part of the theme, fork this repository, a
 - **DON'T USE LIGHT-MODE IN DISCORD! WILL RESULT IN BREAKING THE THEME FOR YOU. IF YOU WANT TO USE THIS THEME, USE DARK-MODE**
 
 #### Type B - Online Theme
-==If your Discord modification supports Online themes by inserting source file URL==
-- Copy this source file URL: `[Source file](https://raw.githubusercontent.com/Ap4cheSK/EFT--The-Unheard-Edition-Discord-Theme/main/Tarkov.Unheard.theme.css)`
+**If your Discord modification supports Online themes by inserting source file URL**
+- Copy this source file URL: [https://raw.githubusercontent.com/Ap4cheSK/EFT--The-Unheard-Edition-Discord-Theme/main/Tarkov.Unheard.theme.css](https://raw.githubusercontent.com/Ap4cheSK/EFT--The-Unheard-Edition-Discord-Theme/main/Tarkov.Unheard.theme.css)
 - Insert the source file URL to Online Theme URL input
 - **DON'T USE LIGHT-MODE IN DISCORD! WILL RESULT IN BREAKING THE THEME FOR YOU. IF YOU WANT TO USE THIS THEME, USE DARK-MODE**
 
 ### How to update?
 
-Currently there is no automatic update system, so you have to check this repository sometimes, so you know if new version has released, or not. However in future, there **may** be automatic theme updater.
+- Check this repository for new version/new commits and download the theme again.
+- Use install type B for auto-updating the theme. (***However, if this repository will become private, or somehow unavailable, the theme will stop working.***)
 
 ### How to uninstall?
 
