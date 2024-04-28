@@ -7,12 +7,12 @@ This is theme **INSPIRED** by new Escape From Tarkov's edition - The Unheard Edi
 
 #### Theme Completion
 
-Currently is theme about 80% completed. There are some things that needs to be fixed and/or made like:
-- emoji, gifs, stickers menu
-- add reaction menu
+Currently is theme about 90% completed. There are some things that needs to be fixed and/or made like:
+- ~~emoji, gifs, stickers menu~~
+- ~~add reaction menu~~
 - some elements in discord settings
 - some elements in server settings
-- soundboard, stream menu
+- ~~soundboard, stream menu~~
 - some modal boxes
 
 I'm not aiming to do theme perfectly 100% complete. If i was trying to, it would consume too much time spending on parts of discord, that users don't use regularly and so it is not priority.

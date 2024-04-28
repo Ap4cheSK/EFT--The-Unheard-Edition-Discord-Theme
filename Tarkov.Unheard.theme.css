@@ -16,7 +16,7 @@
 /* ============= */
 /* G E N E R A L */
 /* ============= */
-* {font-family: "Titillium Web", sans-serif;} /* Font */
+* {font-family: "Titillium Web", sans-serif !important;} /* Font */
 .sidebar_ded4b5, .container__590e2, .panels__58331, .container_ca50b9, .container_d667ff {background: none !important; border: none;} /* Window and channel list / voice control panel NEW */
 .bg__12180 {background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment) !important; filter: blur(3px) brightness(75%);} /* Background image */
 .base_c0676e, .content__76dcf, .sidebar_e031be, .container__7e23c, .wrapper_e832ee, .container_debb33, .container_e1958d {background: none !important; border: none;} /* background deletes*/
@@ -39,9 +39,11 @@
 /* Scrollbars */
 ::-webkit-scrollbar {width: 4px !important;}
 ::-webkit-scrollbar-track {display: none !important;}
-::-webkit-scrollbar-thumb {width: 100% !important; background: rgba(0, 0, 0, 0.5) !important;}
+::-webkit-scrollbar-thumb {width: 100% !important; background: rgba(89, 202, 222, 0.25) !important;}
 .typeWindows_e41dab {background: rgba(0, 0, 0, .25);} /* discord windows lista */
 .wordmark__5b8c9 {color: var(--tueblue);} /* discord top left name */
+/* Modals */
+.flex_f18b02 {background: none;}
 
 /* ===================== */
 /* S E R V E R   L I S T */
@@ -125,6 +127,10 @@
 /* emoji */
 .emoji {width: 28px; height: 28px;} /* bigger inline emoji */
 .jumboable {width: 48px !important; height: 48px !important;} /* bigger standalone emoji */
+/* Pinned msg */
+.messagesPopoutWrap__10dd1, .header__21b33, .messageGroupWrapper__1fce2 {background: rgba(0, 0, 0, .5);}
+/* Inbox */
+.container_c96c91, .header__58a85, .container_cdf5a8, .channelHeader_ea0f89, .messageContainer_cb3d47, .container_eb737e, .messages__1aaa1 {background: rgba(0, 0, 0, .5);}
 
 /* ===================== */
 /* C H A T   E D I T O R */
@@ -150,6 +156,14 @@
 .threadSuggestionBar_b633f7 {background: none; border: none;} /* thread suggestion*/
 .sendIcon_f67abd path {fill: var(--tueblue);} /* send icon */
 .buttonWrapper_bd4bd7 {margin-right: 8px;} /* make send button more centered */
+/* emoji menu (+ stickers, ...) + reaction emoji menu */
+.drawerSizingWrapper_e20f1f, .contentWrapper_e0bb2c, .wrapper__45980, .inspector__80c84, .header__3028e, .packHeader__8c477 {background: rgba(0, 0, 0, .5);}
+.inner__178b2 {background: rgba(0, 0, 0, .5) !important;}
+.navButtonActive__0c878 {background: var(--tueblue); color: black}
+.animatorLeft_f985f4, .wrapper__0757b, .header_e5d8b2, .emojiPicker__5e2e2, .wrapper__91b2c {background: rgba(0, 0, 0, .5);}
+/* gift nitro */
+.content_b28aab {background: none;}
+.planOptionDiscount__196a1 {background: var(--tueblue); color: black !important;}
 
 /* =================== */
 /* V O I C E   C H A T */
@@ -163,6 +177,14 @@
 .strikethrough__29b20 {color: red;}
 .quickSelectPopoutOption__39224 {background: rgba(0, 0, 0, .75);} /* voice region menu bg */
 .iconGroup_e117d2 div svg path {fill: var(--tueblue) !important;} /* muted members icons */
+/* Soundboard */
+.picker__6dca7, .header__93ab0, .wrapper__45980 {background: rgba(0, 0, 0, .75);}
+.soundButton__845c7  {background: rgba(0, 0, 0, .5); border: 1px solid var(--tueblue);}
+/* Streaming */
+.panel_bd8c76 {background: none !important; border: none;}
+/* Activity */
+.scrollContainer__99a28, .scrollBackgroundContainer_e8de10, .scrollTierBackground__89f3e, .activityItem__2bb92 {background: none;}
+.activityTextContainer__930a7 {background: rgba(0, 0, 0, .5) !important;}
 
 /* ========================= */
 /* F O R U M / T H R E A D S */
@@ -187,6 +209,8 @@
 .box_dd6d91::after {display: none;} /* start conversation arrow hidden */
 .buttons__1995d .active_f1266e, .buttons__1995d .contents_fb6220:hover {color: var(--tueblue);} /* forum thread btns */
 .container__17159 {background: rgba(0, 0, 0, .5);} /* chat thread embed */
+/* Threads upper bar icon menu */
+.header__6d44a, .browser_fa9cea  {background: rgba(0, 0, 0, .75);}
 
 /* ====================== */
 /* M E M B E R   L I S T  */
@@ -223,6 +247,7 @@
 .checked__36fdc {background: var(--tueblue) !important;} /* Check buttons */
 .inputDefault__22335 {background: rgba(0, 0, 0, .5);} /* input */
 .checked__36fdc .slider__41d94 svg path {fill: var(--tueblue);} /* slider cross / check */
+.eyebrow_b3f8ba {overflow: hidden;} /* category name weird scrollbar */
 /* my account */
 .background__4e802 {background: rgba(0, 0, 0, .5);}
 .fieldList__4e6dd {background: none;}
@@ -231,6 +256,8 @@
 .premiumFeatureBorder__6ac04 {background: rgba(0, 0, 0, .5) !important;}
 .premiumBackground__4f769 {background: none !important;}
 .select_fe2671 {background: rgba(0, 0, 0, .5) !important;}
+/* privacy safety */
+.item_b7fb7e  {background: rgba(0, 0, 0, .5);}
 /* family center */
 .container_d5dec4, .container__7d3e2, .container__5a2c3, .box__6431e {background: rgba(0, 0, 0, .5);}
 /* authorized apps */
@@ -250,6 +277,8 @@
 .recommendedServerCard_b11321, .wrapper__6b347, .wrapper__4308f  {background: rgba(0, 0, 0, .5);}
 /* billing */
 .codeRedemptionRedirect_b3eca7 {background: rgba(0, 0, 0, .5) !important;}
+/* registered games */
+.activeGame__6d821 {background: rgba(0, 0, 0, .5) !important;}
 
 /* ============================= */
 /* S E R V E R   S E T T I N G S */
@@ -289,3 +318,12 @@
 /* active now */
 .itemCard_b64118 {background: rgba(0, 0, 0, .25); border: none;}
 .section__253ec {background: black;}
+
+/* ============================= */
+/* V E N C O R D   S E T I N G S */
+/* ============================= */
+.vc-settings-donate, .vc-settings-quick-actions-card, .vc-plugins-info-card, .vc-addon-card, .vc-settings-card {
+	background: rgba(0, 0, 0, .5) !important
+}
+.vc-backup-restore-card {background: orange !important;}
+.vc-backup-restore-card div {color: black;}
