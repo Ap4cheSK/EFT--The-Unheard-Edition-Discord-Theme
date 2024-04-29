@@ -96,6 +96,7 @@
 /* ================= */
 /* C H A T   A R E A */
 /* ================= */
+.icon_ae0b42 path {fill: white;} /* channel type icon on top */
 .username__0b0e7 {font-weight: 600;} /* bold usernames */
 .message_ccca67 {margin: 2px 0px;} /* msg padding */
 .children_cde9af::after {opacity: 0;} /* some weird shadow on left from threads btn */
@@ -194,6 +195,8 @@
 /* Activity */
 .scrollContainer__99a28, .scrollBackgroundContainer_e8de10, .scrollTierBackground__89f3e, .activityItem__2bb92 {background: none;}
 .activityTextContainer__930a7 {background: rgba(0, 0, 0, .5) !important;}
+/* Speak symbol */
+.avatarSpeaking_f239de {box-shadow: inset 0px 0px 0px 2px var(--tueblue);}
 
 /* ========================= */
 /* F O R U M / T H R E A D S */
@@ -293,6 +296,10 @@
 /* ============================= */
 /* S E R V E R   S E T T I N G S */
 /* ============================= */
+/* channel settings */
+.settingCard__9b0ad {background: rgba(0, 0, 0, .5);} /* private channel setting */
+.scroller_c92337 {background: none;} /* adv. perms. roles list */
+.sectionTag__03ea5, .header_def8e2 {background: rgba(0, 0, 0, .9) !important;} /* perms add role */
 /* roles */
 .titleContainer_d09261, .header_ee0bd9 {background: none;}
 .container__9c57c {background: rgba(0, 0, 0, .5);} /* default perms button */
