@@ -40,6 +40,8 @@
 ::-webkit-scrollbar {width: 4px !important;}
 ::-webkit-scrollbar-track {display: none !important;}
 ::-webkit-scrollbar-thumb {width: 100% !important; background: rgba(89, 202, 222, 0.25) !important;}
+::-webkit-scrollbar-thumb:hover {background: rgba(89, 202, 222, 0.5) !important;}
+::-webkit-scrollbar-thumb:active {background: rgba(89, 202, 222, 0.75) !important;}
 .typeWindows_e41dab {background: rgba(0, 0, 0, .25);} /* discord windows lista */
 .wordmark__5b8c9 {color: var(--tueblue);} /* discord top left name */
 /* Modals */
