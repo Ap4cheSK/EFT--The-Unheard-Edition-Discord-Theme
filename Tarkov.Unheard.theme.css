@@ -17,25 +17,25 @@
 /* G E N E R A L */
 /* ============= */
 * {font-family: "Titillium Web", sans-serif !important;} /* Font */
-.sidebar_ded4b5, .container__590e2, .panels__58331, .container_ca50b9, .container_d667ff {background: none !important; border: none;} /* Window and channel list / voice control panel NEW */
-.bg__12180 {background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment) !important; filter: blur(3px) brightness(75%);} /* Background image */
-.base_c0676e, .content__76dcf, .sidebar_e031be, .container__7e23c, .wrapper_e832ee, .container_debb33, .container_e1958d {background: none !important; border: none;} /* background deletes*/
+.sidebar_ded4b5, .container__590e2, .panels__58331, .container_ca50b9, .container_d667ff {
+	background: none !important; border: none; /* Window and channel list / voice control panel NEW */
+}
+.bg__12180 {
+	background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment) !important; filter: blur(3px) brightness(75%); /* Background image */
+}
+.base_c0676e, .content__76dcf, .sidebar_e031be, .container__7e23c, .wrapper_e832ee, .container_debb33, .container_e1958d {
+	background: none !important; border: none; /* background deletes */
+}
 .wrapper__216eb, .content__76dcf {background: rgba(0, 0, 0, .25) !important;} /* background additions */
 .childWrapper_a6ce15 {background: none !important;} /* Discord Icon Top Left */
 .sidebar_e031be, .privateChannels__9b518 {background: none !important;} /* Discord friends conversations list bg delete */
 .scroller__89969, .content__690c5 {background: none !important;}
 .searchBar__621ec {background: rgba(0, 0, 0, .25) !important;} /* Discord friends conversations list bg */
-.shyButton__30111 {background: radial-gradient(ellipse at 120%200%, var(--tueblue) 10%,transparent 70%); background-clip: content-box;} /* shop new bg woosh */
+.shyButton__30111 {
+	background: radial-gradient(ellipse at 120%200%, var(--tueblue) 10%,transparent 70%); background-clip: content-box;
+} /* shop new bg woosh */
 .newBadge__5fcc2 {background: var(--tueblue) !important; color: black;} /* shop new pill */
 .interactiveSelected__689f0 {background: rgba(255,255,255, 0.05);}
-/* Discord friends list center */
-.container_bd15da {background: none !important;} /* Containers */
-.actionButton__2b4bb {background: rgba(0, 0, 0, .25);} /* Message / others buttons */
-.addFriend__4c0a2 {background: var(--tueblue) !important; color: black !important;} /* Add Friends btn */
-/* Active now friends */
-.nowPlayingColumn_b025fe, .container__3673d, .container__26baa {background: none !important;} /* Container */
-.itemCard__1f162, .section_efc22d, .body__83069, .emptyCard__204d9 {background: none !important; border: none;} /* Cards bg removal */
-.itemCard__1f162 {background: rgba(0, 0, 0, .25) !important;} /* Cards BG */
 /* Scrollbars */
 ::-webkit-scrollbar {width: 4px !important;}
 ::-webkit-scrollbar-track {display: none !important;}
@@ -338,6 +338,16 @@
 /* active now */
 .itemCard_b64118 {background: rgba(0, 0, 0, .25); border: none;}
 .section__253ec {background: black;}
+/* Discord friends list center */
+.container_bd15da {background: none !important;} /* Containers */
+.actionButton__2b4bb {background: rgba(0, 0, 0, .25);} /* Message / others buttons */
+.addFriend__4c0a2 {background: var(--tueblue) !important; color: black !important;} /* Add Friends btn */
+/* Active now friends */
+.nowPlayingColumn_b025fe, .container__3673d, .container__26baa {background: none !important;} /* Container */
+.itemCard__1f162, .section_efc22d, .body__83069, .emptyCard__204d9 {
+	background: none !important; border: none; /* Cards bg removal */
+}
+.itemCard__1f162 {background: rgba(0, 0, 0, .25) !important;} /* Cards BG */
 
 /* ============================= */
 /* V E N C O R D   S E T I N G S */
