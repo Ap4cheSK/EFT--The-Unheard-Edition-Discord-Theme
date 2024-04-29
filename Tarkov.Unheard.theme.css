@@ -44,6 +44,8 @@
 .wordmark__5b8c9 {color: var(--tueblue);} /* discord top left name */
 /* Modals */
 .flex_f18b02 {background: none;}
+/* Context menu */
+.menu__088f7 {background: rgba(0, 0, 0, .9);}
 
 /* ===================== */
 /* S E R V E R   L I S T */
@@ -132,6 +134,9 @@
 .messagesPopoutWrap__10dd1, .header__21b33, .messageGroupWrapper__1fce2 {background: rgba(0, 0, 0, .5);}
 /* Inbox */
 .container_c96c91, .header__58a85, .container_cdf5a8, .channelHeader_ea0f89, .messageContainer_cb3d47, .container_eb737e, .messages__1aaa1 {background: rgba(0, 0, 0, .5);}
+/* Message hover actions */
+.buttonsInner_a9dfff {background: none;}
+.button_d4bf9b {background: rgba(0, 0, 0, .75);}
 
 /* ===================== */
 /* C H A T   E D I T O R */
@@ -340,3 +345,9 @@
 }
 .vc-backup-restore-card {background: orange !important;}
 .vc-backup-restore-card div {color: black;}
+
+/* =============== */
+/* D I S C O V E R */
+/* =============== */
+.pageWrapper_c182d3, .scroller__32e73  {background: none !important;} /* page background */
+.container_c83a4f {background: rgba(0, 0, 0, .5);} /* student hubs card */
