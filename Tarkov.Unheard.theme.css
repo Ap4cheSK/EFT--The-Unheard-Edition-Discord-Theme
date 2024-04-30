@@ -205,8 +205,6 @@
 .avatarSpeaking_f239de {box-shadow: inset 0px 0px 0px 2px var(--tueblue);}
 /* Join channel screen */
 .wrapper__6bf2d, .callContainer__1477d, .root__3eef0, .gradientTop_e30d42, .gradientBottom__2e72c {background: none;}
-.lookFilled__950dd div {color: black; font-weight: 600;} /* join button */
-.lookFilled__950dd {background: var(--tueblue) !important;} /* join button */
 .lookFilled__950dd:hover {background: rgba(89, 202, 222, 0.7) !important;} /* join button */
 /* You're the only one here ... */
 .root__649bb {background: rgba(0, 0, 0, .5);}
