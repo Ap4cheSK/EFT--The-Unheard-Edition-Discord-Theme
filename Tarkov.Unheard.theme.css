@@ -30,7 +30,6 @@
 .childWrapper_a6ce15 {background: none !important;} /* Discord Icon Top Left */
 .sidebar_e031be, .privateChannels__9b518 {background: none !important;} /* Discord friends conversations list bg delete */
 .scroller__89969, .content__690c5 {background: none !important;}
-.searchBar__621ec {background: rgba(0, 0, 0, .25) !important;} /* Discord friends conversations list bg */
 .shyButton__30111 {
 	background: radial-gradient(ellipse at 120%200%, var(--tueblue) 10%,transparent 70%); background-clip: content-box;
 } /* shop new bg woosh */
@@ -117,13 +116,18 @@
 .mention {background: rgba(89, 202, 222, 0.5);} /* mention bg */
 .mention:hover {background: rgba(89, 202, 222, 0.75);} /* mention hover bg */
 /* some embed types */
+.embedFull__14919 {background: rgba(0, 0, 0, .5);} /* basic embed bg */
 .container_ce813c {background: none;} /* voice message */
 .container_ce813c .rippleContainer__25799 {background: rgba(0, 0, 0, 0.5);} /* voice message */
 .container_ce813c .playButtonContainer_bf2199 {background: var(--tueblue) !important;} /* voice msg play btn */
 .container_ce813c .playIcon__25e6e {color: black;} /* voice msg play btn */
-.embedWrapper__47b23 {background: rgba(0, 0, 0, .5);} /* embed bg*/
 .codeContainer__49b46 .scrollbarGhostHairline__00100  {background: rgba(0, 0, 0, 0.5);} /* code container */
 .container__62863 .inlineMediaEmbed_b25e49 {background: none !important;} /* gif background */
+.wrapper__8a5dd {background: rgba(0, 0, 0, .5);} /* invite bg */
+.textContainer__65f57, .footer__90194 {background: rgba(0, 0, 0, .5); border: none;} /* text file embed bg */
+.scrollbarGhostHairline__00100 {background: none;} /* text file embed text bg */
+.attachment__06ca3 {background: rgba(0, 0, 0, .5); border: none;} /* sending file */
+.pollContainer_cfb8c7, .answerInner_b97752  {background: rgba(0, 0, 0, .5);} /* polls */
 /* reactions */
 .reaction__4a43f, .reactions_da5b2a {background: none !important;}
 .reaction__4a43f {background: rgba(0, 0, 0, .25) !important;}
@@ -174,6 +178,8 @@
 /* gift nitro */
 .content_b28aab {background: none;}
 .planOptionDiscount__196a1 {background: var(--tueblue); color: black !important;}
+/* emoji suggestion */
+.autocomplete__743a5 {background: rgba(0, 0, 0, .9) !important;}
 
 /* =================== */
 /* V O I C E   C H A T */
@@ -238,6 +244,7 @@
 .member_aa4760:hover {background: rgba(0, 0, 0, .25) !important;}
 .membersGroup_cad095, .activityText__31c22 {color: white;} /* member activity text color */
 .botTag_a52f38 {background: var(--tueblue); color: black;} /* members APP pill */
+.botText_daff56 {font-weight: 600;} /* app pill text weight */
 .username__4a6f7 {font-weight: 600;} /* bold usernames */
 
 /* ========================================= */
@@ -377,3 +384,11 @@
 /* =============== */
 .pageWrapper_c182d3, .scroller__32e73  {background: none !important;} /* page background */
 .container_c83a4f {background: rgba(0, 0, 0, .5);} /* student hubs card */
+
+/* ===================================== */
+/* N I T R O   A N D   S H O P   P A G E */
+/* ===================================== */
+.applicationStore__444b9, .scroller__49aa3 {background: none;} /* nitro header and container bg */
+.card_e97590 {background: rgba(0, 0, 0, .5);} /* nitro benefits cards */
+.wrapper_ba4346 {background: none;} /* buy nitro "Select plan - payment - review" bar */
+.shopScroll_caa423, .pageWrapper__18871 {background: none;} /* shop container bg */
