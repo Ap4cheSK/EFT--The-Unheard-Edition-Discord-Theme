@@ -236,6 +236,9 @@
 .container__17159 {background: rgba(0, 0, 0, .5);} /* chat thread embed */
 /* Threads upper bar icon menu */
 .header__6d44a, .browser_fa9cea  {background: rgba(0, 0, 0, .75);}
+/* All active threads popup */
+.activeThreadsList__9c428, .container__09428 {background: none;}
+.header__7e1e8, .container__9922f {background: rgba(0, 0, 0, .5);}
 
 /* ====================== */
 /* M E M B E R   L I S T  */
