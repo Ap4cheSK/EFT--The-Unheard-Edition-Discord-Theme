@@ -7,13 +7,14 @@ This is theme **INSPIRED** by new Escape From Tarkov's edition - The Unheard Edi
 
 #### Theme Completion
 
-Currently is theme about 90% completed. There are some things that needs to be fixed and/or made like:
+Currently is theme about 95% completed. There are some things that needs to be fixed and/or made like:
 - ~~emoji, gifs, stickers menu~~
 - ~~add reaction menu~~
-- some elements in discord settings
-- some elements in server settings
+- ~~some elements in discord settings~~
+- ~~some elements in server settings~~
 - ~~soundboard, stream menu~~
-- some modal boxes
+- ~~some modal boxes~~
+- some elements remaining to be done, but are not altering the look of theme (setting btns etc.)
 
 I'm not aiming to do theme perfectly 100% complete. If i was trying to, it would consume too much time spending on parts of discord, that users don't use regularly and so it is not priority.
 
@@ -24,18 +25,17 @@ As well, Discord is releasing updates that **can** break this theme.
 If you want to contribute and do some part of the theme, fork this repository, and after your work create pull request to merge your changes. Of course, I will review your changes. However, don't expect I will do it immediately. It can take some time.
 
 ### How to install?
+**DON'T USE LIGHT-MODE IN DISCORD! WILL RESULT IN BREAKING THE THEME FOR YOU. IF YOU WANT TO USE THIS THEME, USE DARK MODE**
 
 #### Type A - Local theme
 - Download the content of the repository
 - Extract the downloaded archive and copy **ALL** files into your *Vencord* / *BetterDiscord* **themes** folder.
 - Launch Discord and enable theme in the settings.
-- **DON'T USE LIGHT-MODE IN DISCORD! WILL RESULT IN BREAKING THE THEME FOR YOU. IF YOU WANT TO USE THIS THEME, USE DARK-MODE**
 
 #### Type B - Online Theme
 **If your Discord modification supports Online themes by inserting source file URL**
 - Copy this source file URL: [https://raw.githubusercontent.com/Ap4cheSK/EFT--The-Unheard-Edition-Discord-Theme/main/Tarkov.Unheard.theme.css](https://raw.githubusercontent.com/Ap4cheSK/EFT--The-Unheard-Edition-Discord-Theme/main/Tarkov.Unheard.theme.css)
 - Insert the source file URL to Online Theme URL input
-- **DON'T USE LIGHT-MODE IN DISCORD! WILL RESULT IN BREAKING THE THEME FOR YOU. IF YOU WANT TO USE THIS THEME, USE DARK-MODE**
 
 ### How to update?
 
