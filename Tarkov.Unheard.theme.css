@@ -85,6 +85,7 @@
 .mentionsBadge_c2f85b .numberBadge__50328 {background: var(--tueblue) !important; color: black;} /* Channel mention number */
 .bar__004d9 {background: var(--tueblue);} /* Channel list mention bar scroll background */
 .bar__004d9 .barText__32a63 {color: black !important;} /* Channel list mention bar scroll text */
+.bar__004d9 .unreadIcon__1e53f path {fill: black;} /* channel list mention bar icon */
 .unreadIcon_efbd40 path {fill: black;} /* unread pill symbol color */
 .iconGroup_e117d2 .live_b195a5 {background: var(--tueblue) !important; color: black;} /* voip channel live pill */
 .channelInfo_b0882c .numberBadge__40d6f {background: var(--tueblue) !important; color: black;} /* msg channel mention pill */
@@ -116,7 +117,7 @@
 .mention {background: rgba(89, 202, 222, 0.5);} /* mention bg */
 .mention:hover {background: rgba(89, 202, 222, 0.75);} /* mention hover bg */
 /* some embed types */
-.embedFull__14919 {background: rgba(0, 0, 0, .5);} /* basic embed bg */
+.embedFull__14919, .embedCard__8f52c {background: rgba(0, 0, 0, .5);} /* basic embed bg */
 .container_ce813c {background: none;} /* voice message */
 .container_ce813c .rippleContainer__25799 {background: rgba(0, 0, 0, 0.5);} /* voice message */
 .container_ce813c .playButtonContainer_bf2199 {background: var(--tueblue) !important;} /* voice msg play btn */
@@ -330,6 +331,8 @@
 .card__10f25, .card__39d1a, .emptyCard__8b6bc {background: rgba(0, 0, 0, .5) !important;}
 /* safety setup */
 .changelog__55624, .safetyChecklist__4c74b {background: rgba(0, 0, 0, .5);}
+/* automod */
+.editCard__7d03f {background: rgba(0, 0, 0, .5);}
 /* audit log */
 .header__8cacc, .auditLog__9228d  header__8cacc {background: rgba(0, 0, 0, .5) !important;}
 /* onboarding */
@@ -343,8 +346,18 @@
 .container__17b02, .header__17969 {background: rgba(0, 0, 0, .5);}
 /* bans */
 .scrollerContainer__35215 {background: rgba(0, 0, 0, .5);}
+/* enable community */
+.featureCard__769f1 {background: rgba(0, 0, 0, .5);}
+/* server subs */
+.howItWorksContainer__025eb, .card_bc6ee2, .avatarCard__8d1e3 {background: rgba(0, 0, 0, .5);}
+.earningsPreviewContainer__2b25a {background: rgba(0, 0, 0, .5) !important;}
+.howItWorksImageContainer__33219 {background: none;}
 /* members */
+.movedTable_dbcb19 {background: rgba(0, 0, 0, .5);} /* moved table to channel list */
+.bannerContainer_b80705 {background: rgba(0, 0, 0, .5);} /* moved table container */
 .mainTableContainer_d09fd4 {background: rgba(0, 0, 0, .5);}
+/* invite member */
+.footer_e0b400, .temporaryMembershipContainerBackground__4190c {background: none !important;}
 
 /* ======================= */
 /* F R I E N D S   &   D M */
